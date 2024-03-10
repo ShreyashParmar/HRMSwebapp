@@ -8,6 +8,10 @@ import { AppComponent } from './app.component';
 import { EmployeeModule } from './employee/employee.module';
 import { AuthenticationModule } from './authentication/authentication.module';
 
+import { DashboardComponent } from './employee/dashboard/dashboard.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent

@@ -1,9 +1,26 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './employee/dashboard/dashboard.component';
+import { HeaderComponent } from './employee/header/header.component';
+import { SidebarComponent } from './employee/sidebar/sidebar.component';
+import { LoginComponent } from './employee/login/login.component';
+import { RegisterComponent } from './employee/register/register.component';
+
 
 const routes: Routes = [
-   {path: 'empdashboard', component: DashboardComponent},
+   {path: '', redirectTo: '/emplogin', pathMatch: 'full'},
+  //  {
+  //   path: 'items',
+  //   loadChildren: () => import('./employee/employee.module').then(m => m.EmployeeModule)
+  // },
+  {path: 'empdashboard', component: DashboardComponent},
+  {path: 'empheader', component: HeaderComponent},
+  {path: 'empsidebar', component: SidebarComponent},
+  {path: 'emplogin', component:LoginComponent},
+  {path: 'empregister', component:RegisterComponent},
+
+
+
 ];
 
 @NgModule({
