@@ -1,14 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-
 import { EmployeeModule } from './employee/employee.module';
 import { AuthenticationModule } from './authentication/authentication.module';
-
-import { DashboardComponent } from './employee/dashboard/dashboard.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -20,7 +16,8 @@ import { DashboardComponent } from './employee/dashboard/dashboard.component';
     BrowserModule,
     AppRoutingModule,
     EmployeeModule,
-    AuthenticationModule
+    AuthenticationModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
