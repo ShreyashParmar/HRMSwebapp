@@ -5,6 +5,7 @@ import { HeaderComponent } from './employee/header/header.component';
 import { SidebarComponent } from './employee/sidebar/sidebar.component';
 import { LoginComponent } from './employee/login/login.component';
 import { RegisterComponent } from './employee/register/register.component';
+import { EmployeeSidebarComponent } from './employee-sidebar/employee-sidebar.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,7 @@ const routes: Routes = [
   // },
   {path: 'empdashboard', component: DashboardComponent},
   {path: 'empheader', component: HeaderComponent},
-  {path: 'empsidebar', component: SidebarComponent},
+  {path: 'empsidebar', component: EmployeeSidebarComponent},
   {path: 'emplogin', component:LoginComponent},
   {path: 'empregister', component:RegisterComponent},
 

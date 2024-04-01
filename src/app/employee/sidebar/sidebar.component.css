@@ -1,0 +1,91 @@
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #b22d64;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidebar-open {
+  width: 250px;
+}
+
+.main-open {
+  margin-left: 250px;
+}
+
+.apply-dropdown ul {
+  display: none
+}
+
+.apply-dropdown:hover {
+  display: block;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.has-dropdown .dropdown {
+  display: none;
+}
+
+.has-dropdown:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  background-color: #2db239;
+  border-radius: 12px;
+}
+
+.dropdown li {
+  padding: 5px 20px;
+}
+
+.dropdown li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Optional: Add some style for better visibility */
+/* .dropdown li:hover {
+  background-color: #555;
+} */

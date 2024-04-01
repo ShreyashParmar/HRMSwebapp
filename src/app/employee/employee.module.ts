@@ -7,6 +7,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule } from '@angular/forms';
+import { EmployeeSidebarComponent } from '../employee-sidebar/employee-sidebar.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { FormsModule } from '@angular/forms';
     SidebarComponent,
     LoginComponent,
     RegisterComponent,
+    EmployeeSidebarComponent 
   ],
   imports: [
     CommonModule,
